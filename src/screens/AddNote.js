@@ -47,7 +47,7 @@ class AddNote extends Component {
 	}
 
 	addNote = () => {
-		if (this.state.category_id != 0) {
+		if (this.state.category_id != 0 && this.state.title != '' && this.state.note != '') {
 
 			this.props.dispatch(postNote({
 				id: 109,

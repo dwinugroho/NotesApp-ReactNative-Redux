@@ -55,6 +55,7 @@ class Home extends Component {
 
 		this.setState({
 			sort: 'DESC',
+			search: '',
 			page: 1,
 		})
 
@@ -192,7 +193,7 @@ class Home extends Component {
 				
 				<TextInput 
 					style={styles.search}
-					onChangeText={_.debounce(this.search, 400)}
+					onChangeText={_.debounce(this.search, 500)}
 					placeholder="search..."
 				/>
 				{

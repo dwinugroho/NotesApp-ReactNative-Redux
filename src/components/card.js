@@ -68,8 +68,9 @@ class CardHeaderFooterExample extends Component {
                                 padding: 15,
                                 backgroundColor: this.props.item.category_name == 'Work' ? '#C0EB6A' : 
                                                 (this.props.item.category_name == 'Learn' ? '#2FC2DF' : 
-                                                (this.props.item.category_name == 'Wishlist' ? '#FAD06C' : '#FF92A9'
-                                                ))
+                                                (this.props.item.category_name == 'Wishlist' ? '#FAD06C' :
+                                                (this.props.item.category_name == 'Personal' ? '#FF92A9' : '#00D4AA'
+                                                )))
                             }}>
                     <Text style={styles.date}>
                         {moment(this.props.item.time).format('DD MMMM')}
