@@ -113,11 +113,13 @@ class Home extends Component {
 			if (this.props.notes.info.page < this.props.notes.info.totalPage) {
 
 				setTimeout(() => {
+
 					this.props.dispatch(getMoreNotes({
 						sort: this.state.sort,
 						search: this.state.search,
 						page: this.props.notes.info.page + 1
 					}))
+					
 				}, 50)
 
 			} 

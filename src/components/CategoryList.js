@@ -54,7 +54,7 @@ class CategoryList extends Component {
     getNotesByCategory = () => {
     	this.props.dispatch(getNotesByCategory({
     		category_id: this.props.item.id,
-    		sort: '',
+    		sort: 'DESC',
     		search: ''
     	}))
     	this.props.navigation.closeDrawer();
