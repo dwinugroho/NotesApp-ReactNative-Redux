@@ -39,7 +39,7 @@ Notes App is a mobile application that I created with React-Native and Redux lib
 You can watch the preview video <a href="https://drive.google.com/file/d/1-6Ta8n59yJgxYydgQ8duwhkGX614JfqZ/view?usp=sharing">Here!</a>
 
 ## Download the APK
-You can Download the APK <a href="https://drive.google.com/file/d/1-6Ta8n59yJgxYydgQ8duwhkGX614JfqZ/view?usp=sharing">Here!</a>
+You can Download the APK <a href="https://drive.google.com/file/d/1KbdcOZ2HuYMANZzWaSPYQu-snh8wVNXu/view?usp=sharing">Here!</a>
 
 ## Screenshot from the App
 <p align='center'>
